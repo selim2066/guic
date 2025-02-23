@@ -1,0 +1,388 @@
+/* body{
+    border: 1px solid #38cc5177;
+    border-color: crimson;
+
+    background-color: #38cc511f;
+    background-color: rgba(220, 20, 60, 0.295);
+} */
+
+/* *********shared styles ************/
+
+
+.work-sans-font {
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.bg-light {
+    background-color: rgba(5, 192, 67, 0.116);
+
+}
+
+.btn-primary {
+    padding: 20px 30px;
+    /* background-color:#ff900E; */
+    background-color: #0a6144;
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: white;
+    border-radius: 10px;
+    border: none
+}
+
+.shadow{
+    box-shadow: 0 2px 10px -9px;
+    padding: 30px;
+}
+
+
+
+/* work-specific styles */
+/* nav related */
+
+
+.brand {
+    font-weight: 700;
+    font-size: 3rem;
+
+}
+
+.navbar {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nlink {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.item {
+    margin-right: 40px;
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+.text-gray {
+    color: #2e2b2b
+}
+
+.navbar,
+.banner {
+    max-width: 1440px;
+    margin: 0 auto;
+
+
+}
+
+
+/* banner related */
+
+.bcontent {
+    margin: 0 auto;
+    max-width: 850px;
+    text-align: center;
+    padding: 25px 0px;
+}
+
+.btitle {
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+.b-img {
+    max-width: 100%;
+    border-radius: 10px;
+
+}
+
+
+
+
+/******************** Main Related ********************/
+
+main {
+    margin: 130px auto;
+}
+
+.team {
+    align-items: center;
+    max-width: 1440px;
+    margin: 50px auto;
+}
+
+.teams-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.intro {
+    margin-left: 120px;
+    max-width: 530px;
+    display: flex;
+    flex-direction: column;
+}
+
+.intro>h2 {
+    font-size: 3.5rem;
+}
+
+.intro>p {
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+#why {
+    color: #660000;
+}
+
+#guic {
+    color: #043927
+}
+
+
+/* ************ charectaristics ************ */
+
+.charect{
+    display: flex;
+    max-width: 1440px;
+    margin: 50px auto;
+   
+    gap: 30px;
+
+}
+
+.ch-head{
+    font-size: 3rem;
+    color: rgba(7, 94, 46, 0.76);
+    font-weight: 700;
+    border-left: 15px solid #039c0ac4;
+    padding-left: 25px;
+}
+
+.chContent>h3{
+    font-size: 1.6rem;
+    margin:7px;
+    color:#0a6144
+}
+
+.chContent>h4{
+    font-size: 1.1rem;
+    color: rgb(90, 88, 88);
+    margin: 5px;
+}
+
+.chContent>i{
+    font-size: 1rem;
+    margin: 5px;
+    color: rgba(54, 53, 53, 0.658);
+}
+
+
+.chContent{
+    text-align: justify;
+    max-width: 520px;
+}
+
+
+
+.fvission{
+   text-align: justify; 
+   margin-top: 150px;
+}
+
+.fvission>h3{
+    font-size: 1.6rem;
+    margin:7px;
+    color:#0a6144;
+    padding-left: 15px;
+    border-left: 10px solid #039c0ac4;
+}
+
+.fvission>p{
+    font-size: 1rem;
+    color: rgb(90, 88, 88);
+    margin: 5px; 
+    padding : 20px 5px;
+}
+
+
+
+/* some facts segment */
+
+.fhead {
+    max-width: 500px;
+
+}
+
+.fhead>p {
+    font-size: 1.5rem;
+    color: rgb(99, 95, 95);
+    font-weight: 600;
+    text-align: justify;
+}
+
+.sf {
+    font-size: 4rem;
+    color: darkred;
+    font-weight: 600;
+}
+
+.fcontainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    justify-content: space-between;
+    max-width: 1440px;
+
+
+}
+
+.fcard {
+    width: 240px;
+    height: 240px;
+    border: seagreen solid 2px;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+}
+
+.ficon {
+    margin-top: 15px;
+}
+
+.fnum {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: rgba(31, 136, 5, 0.664);
+}
+
+.fname {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: darkorange;
+    margin-top: 10px;
+}
+
+.fcard>div>img {
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+}
+
+
+
+
+/**************** sponsor related *************/
+
+.sp-content {
+    max-width: 450px;
+}
+
+.sphead {
+    margin-top: 70px;
+    font-size: 3.3rem;
+    color: rgba(3, 30, 65, 0.993);
+}
+
+.spdesc {
+    font-size: 1.4rem;
+    text-align: justify;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    color: rgb(126, 128, 129);
+}
+
+.sp-img {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    max-width: 1440px;
+    margin-left: 200px;
+
+}
+
+.sp-img>img {
+    max-width: 150px;
+    height: auto;
+    object-fit: contain;
+}
+
+
+
+/****************** media query **************/
+
+@media screen and (max-width: 570px) {
+
+    .navbar,
+    .nlink,
+    .fcard,
+    .team {
+        flex-direction: column;
+    }
+
+    .intro {
+        display: flex;
+        flex-direction: column;
+        margin: 10px auto;
+    }
+
+    .teams-img {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
+
+@media screen and (max-width: 576px) {
+
+    .fcontainer,
+    .sp-content {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        justify-items: center;
+        margin-bottom: 25px;
+    }
+
+    .sp-img {
+        margin-left: 0;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+        justify-items: center;
+        margin-bottom: 25px;
+
+    }
+
+    .charect{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .fvission{
+        margin: 0;
+    }
+
+}
